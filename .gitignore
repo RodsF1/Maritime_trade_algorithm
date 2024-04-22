@@ -1,0 +1,9 @@
+**/__pycache__/**
+.nox/
+.tox/
+.hatch/
+**pat.*
+**.lock.txt
+**.envrc
+**ssh**
+local/

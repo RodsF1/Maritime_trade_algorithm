@@ -1,8 +1,20 @@
-# Maritime_trade_algorithm
+# World Trade Predictor
 
-This was a small project to build a maritime trade algorithm based on publicly available 
-data pertaining to ship traffic, choke points, conflicts, and many more parameters involved with 
-the complex nature of shipping and shipping routes. With this data we were able to replicate and 
-accurately predict global upwinds or down turns specific to shipping index's on the global 
-capital markets. 
 
+## Getting started
+
+To get started developing, run the following command:
+
+```{powershell}
+nox
+```
+
+This should start the process of dependency resolution, and eventually create the file called requirements.lock.txt.  Then every version listed in that file with the given details will be installed into venv.
+
+To activate the venv, simply run 
+
+```{powershell}
+.\.venv\Scripts\activate.bat
+```
+
+on windows.  Then you are all set to go!  Install that jupyter vscode extension (see the file `.vscode/extensions.json`) and you are off to the races.
